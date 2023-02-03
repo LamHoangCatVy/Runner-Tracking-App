@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+}
+
+html {
+  font-size: 10px;
+  background: #f38e13;
+}
+
+body {
+  padding: 5rem;
+  background: #eab676;
+  color: rgb(50, 93, 223);
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* img{
+    width: 50rem;
+    height: 50rem;
+} */
+
+.logo {
+  text-align: center;
+  margin: -1rem auto 2rem auto;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  font-family: inherit;
+  background: #f6f4f4;
+  width: 70%;
+  border: solid;
+  border-radius: 20px;
+  text-align: center;
+  margin: 2rem auto 0 auto;
+  padding: 0.5rem;
+}
+
+button {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  border-radius: 50%;
+  margin: 2rem auto 0 auto;
+  padding: 1rem;
+  border: 3px solid #f38e13;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+li {
+  border: 1px solid;
+  padding: 1rem 2rem;
+}
+
+.entriesWrapper {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+hr {
+  margin: 1.8rem 0 1rem 0;
+}
+.entriesWrapper h3 {
+  margin: 1rem 0 2rem auto;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.data {
+  font-size: 1.5rem;
+}
+
+.data div {
+  background: #dfc69c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+  padding: 0.7rem 1rem;
+  font-size: 2rem;
+  border-radius: 20px;
+  border: 2px solid rgb(50, 93, 223);
+}
+
+.progress {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.progress h3 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: 2rem auto;
+  padding: 3rem;
+}
+
+.progressCircleWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#progressCircle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /* background: conic-gradient(#f6f4f4 50%, gold 50%); */
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#progressCenter {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: gold;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    width: 60%;
+  }
+
+  input[type="number"] {
+    width: 40%;
+  }
+
+  svg {
+    max-width: 50%;
+  }
+}
